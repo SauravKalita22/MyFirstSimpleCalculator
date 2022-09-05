@@ -1,19 +1,21 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
 
     cursor: default;
     height: 100vh;
     width: 100vw;
-    background: rgb(255,109,0);
+    background: rgb(255, 109, 0);
     background-size: 100%;
-    background: linear-gradient(180deg, rgba(255,109,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,215,1,1) 100%); 
+    background: linear-gradient(180deg, rgba(255, 109, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 215, 1, 1) 100%);
 }
+
 /* outer div to center inner divs */
-.cOutline{
+.cOutline {
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -26,17 +28,19 @@ body{
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
+
 /* body of the calculator */
-.cbody{
+.cbody {
     border: solid black 5px;
     border-radius: 10px;
-    height: 65vh;
-    width: 34.6vw;
+    height: 530px;
+    width: 500px;
     background-color: gainsboro;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /* calculator screen */
-.cscreen{
+.cscreen {
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px 30px;
@@ -44,22 +48,24 @@ body{
     background-color: black;
     overflow: auto;
 }
+
 /* text of the calculator screen */
-#calculate{
+#calculate {
     font-family: 'Courier New', Courier, monospace;
     text-align: end;
     padding-top: 55px;
     padding-right: 10px;
     color: white;
 }
+
 /* button to clear */
-.col1{
+.col1 {
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
     width: 50px;
     height: 40px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-left: 35px;
     text-align: center;
     padding-top: 5px;
@@ -67,8 +73,9 @@ body{
     transition: 0.2s;
 
 }
+
 /* back button */
-.col2{
+.col2 {
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
@@ -80,8 +87,9 @@ body{
     background-color: white;
     transition: 0.2s;
 }
+
 /* button for percentage */
-.col3{
+.col3 {
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
@@ -94,8 +102,9 @@ body{
     transition: 0.2s;
 
 }
+
 /* button to add */
-.col4{
+.col4 {
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
@@ -107,30 +116,39 @@ body{
     background-color: white;
     transition: 0.2s;
 }
-.col1:hover{
+
+.col1:hover {
     background-color: rgb(200, 200, 200);
 }
-.col2:hover{
+
+.col2:hover {
     background-color: rgb(200, 200, 200);
 }
-.col3:hover{
+
+.col3:hover {
     background-color: rgb(200, 200, 200);
 }
-.col4:hover{
+
+.col4:hover {
     background-color: rgb(200, 200, 200);
 }
-.col1:active{
+
+.col1:active {
     background-color: gray;
 }
-.col2:active{
+
+.col2:active {
     background-color: gray;
 }
-.col3:active{
+
+.col3:active {
     background-color: gray;
 }
-.col4:active{
+
+.col4:active {
     background-color: gray;
 }
-h2{
+
+h2 {
     cursor: pointer;
 }
