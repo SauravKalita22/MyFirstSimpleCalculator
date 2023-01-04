@@ -1,5 +1,4 @@
 # A SIMPLE CALCULATOR 
-## LINK : https://sauravkalita22.github.io/MyFirstSimpleCalculator/
 This is a simple calculator that is developed as my first project using
 - HTML
 - CSS
